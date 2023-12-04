@@ -73,7 +73,7 @@
         image_02 varchar(100) NOT NULL,
         image_03 varchar(100) NOT NULL,
         FOREIGN KEY (admin_id) REFERENCES admins (admin_id),
-        FOREIGN KEY (category_id) REFERENCES categories (category_id)
+        FOREIGN KEY (category_id) REFERENCES categorys (category_id)
     )";
 
     // Thực hiện truy vấn
